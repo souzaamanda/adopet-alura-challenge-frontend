@@ -1,0 +1,79 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza-escuro: #737380;
+    --cinza-medio: #BCBCBC;
+    --cinza-claro: #F6F6F6;
+    --font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    min-height: 100vh;
+    
+    background-image: 
+        url(../img/forma-topo.svg), 
+        url(../img/forma-lateral.svg),
+        url(../img/cao-gato.svg);
+    background-repeat: no-repeat;
+    background-position: top left, center right, center bottom;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-body{
+    background-color: var(--azul);
+}
+
+.cabecalho {
+    margin: 3rem;
+}
+
+.icon {
+   padding: 2rem;
+   
+}
+
+.principal {
+    text-align: center;
+    color: var(--cinza-claro);
+    padding: 0 3rem;
+    margin-top: 1rem;
+    flex-grow: 1;
+}
+
+.principal h1{
+    font-size: 1.5rem;
+    margin: 1.2rem 0;
+}
+
+.principal p {
+    font-size: 1rem;
+    margin: 1.2rem 0;
+}
+
+.principal a {
+    display: block;
+    background-color: var(--coral);
+    text-decoration: none;
+    color: var(--creme);
+    font-size: 1rem;
+    font-weight: 600;
+
+    height: 40px;
+    width: 180px;
+    border-radius: 6px;
+    left: 90px;
+    top: 398px;
+    margin-bottom: 0.8rem;
+    align-self: center;
+}
+
+footer {
+    background-color: var(--verde);
+    color: var(--creme);
+    padding: 1.5rem 1.1rem;
+    font-size: 0.8rem;
+}
