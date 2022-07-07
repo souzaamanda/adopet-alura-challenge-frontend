@@ -14,21 +14,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
-<body class="bg-body">
+<body class="bg-home">
     <header class="cabecalho">
-        <a href="#" class="icon"><img src="img/home.svg" alt="home"></a>
+        <a href="index.html" class="icon"><img src="img/home.svg" alt="home"></a>
         <a href="mensagem.html"class="icon"><img src="img/message.svg" alt="home"></a>
+        <a href="#"class="icon-perfil"><img src="img/perfil.svg" alt="home"></a>
     </header>
 
     <main class="container">
-        <img src="./img/logo-clara.svg" alt="logo adopet">
-        <h1 class="titulo">Boas-vindas!</h1>
-        <p class="texto-claro">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-        
-        <a href="login.html"><button class="botao">Já tenho conta</button></a>
+        <p class="texto-azul">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
 
-        <a href="cadastro.html"><button class="botao">Quero me cadastrar</button></a>
-        
+        <form action="#" class="cadastro">
+            <label for="email" class="form-titulo">Email</label>
+            <input type="email" placeholder="Insira seu email" name="email" class="campo">
+
+
+            <label for="senha"class="form-titulo">Senha</label>
+            <input type="password" placeholder="Insira sua senha" name="senha"class="campo">
+            <img src="img/eye.svg" alt="" class="eye">
+
+            <span class="recuperar-senha">Esqueci minha senha.</span>
+
+        </form>
+
+        <button class="botao">Enviar</button>
 
     </main>
 

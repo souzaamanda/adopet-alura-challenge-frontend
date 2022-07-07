@@ -11,20 +11,36 @@
 
 body {
     font-family: var(--font);
-    min-height: 100vh;
-    
-    background-image: 
-        url(../img/forma-topo.svg), 
-        url(../img/forma-lateral.svg),
-        url(../img/cao-gato.svg);
-    background-repeat: no-repeat;
-    background-position: top left, center right, center bottom;
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
 }
 
 .bg-body{
     background-color: var(--azul);
+    background-image: 
+        url(../img/forma-topo.svg), 
+        url(../img/forma-lateral.svg),
+        url(../img/cao-gato.svg);
+    background-repeat: no-repeat;
+    background-position: top left, center right, center bottom;
+}
+
+.bg-form {
+    background-color: var(--cinza-claro);
+    background-image: 
+        url(../img/patas.svg),
+        url(../img/forma-topo.svg), 
+        url(../img/forma-lateral2.svg);
+    background-repeat: no-repeat;
+    background-position: top right, top left, 0% 75%;
+}
+
+.bg-home {
+    background-color: var(--cinza-claro);
+    background-image: url(../img/forma-topo.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .cabecalho {
@@ -32,30 +48,40 @@ body {
 }
 
 .icon {
-   padding: 2rem;
-   
+   padding: 2rem;  
 }
 
-.principal {
+.icon-perfil {
+    position: relative;
+
+}
+
+.container {
     text-align: center;
-    color: var(--cinza-claro);
+    
     padding: 0 3rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     flex-grow: 1;
 }
 
-.principal h1{
+.titulo{
+    color: var(--cinza-claro);
     font-size: 1.5rem;
     margin: 1.2rem 0;
 }
 
-.principal p {
+.texto-claro {
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    margin: 1.2rem 0;
+}
+.texto-azul {
+    color: var(--azul);
     font-size: 1rem;
     margin: 1.2rem 0;
 }
 
-.principal a {
-    display: block;
+.botao {
     background-color: var(--coral);
     text-decoration: none;
     color: var(--creme);
@@ -65,15 +91,55 @@ body {
     height: 40px;
     width: 180px;
     border-radius: 6px;
-    left: 90px;
-    top: 398px;
+    padding: 0;
     margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
     align-self: center;
 }
 
-footer {
+.botao:hover {
+    background: #FF9D9E;
+}
+
+.rodape {
     background-color: var(--verde);
     color: var(--creme);
     padding: 1.5rem 1.1rem;
     font-size: 0.8rem;
+    text-align: center;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-titulo{
+    margin-bottom: 0.5rem;
+    color: var(--cinza-escuro);
+}
+
+.campo {
+    height: 40px;
+    width: 312px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 0.8rem;
+    color: var(--cinza-medio);
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    text-align: center;  
+}
+
+.eye {
+    
+ 
+}
+
+.recuperar-senha {
+    color: var(--coral);
+    text-decoration: underline;
+    margin: 1rem;
 }
