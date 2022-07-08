@@ -24,20 +24,21 @@
     <main class="container">
         <p class="texto-azul">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
 
-        <form action="#" class="cadastro">
-            <label for="email" class="form-titulo">Email</label>
-            <input type="email" placeholder="Insira seu email" name="email" class="campo">
+        <form action="#" class="cx-msg">
+            <label for="nome" class="msg-titulo texto-azul">Nome</label>
+            <input type="text" placeholder="Insira seu nome completo" name="nome" class="campo">
 
+            <label for="telefone" class="msg-titulo texto-azul">Telefone</label>
+            <input type="number" placeholder="Insira seu telefone e/ou whatsapp" name="telefone" class="campo">
 
-            <label for="senha"class="form-titulo">Senha</label>
-            <input type="password" placeholder="Insira sua senha" name="senha"class="campo">
-            <img src="img/eye.svg" alt="" class="eye">
+            <label for="animal" class="msg-titulo texto-azul">Nome do animal</label>
+            <input type="text" placeholder="Por qual animal você se interessou?" name="animal" class="campo">
 
-            <span class="recuperar-senha">Esqueci minha senha.</span>
+            <label for="mensagem" class="msg-titulo texto-azul">Mensagem</label>
+            <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Escreva sua mensagem." class="campo tx-area"></textarea>
 
+            <a class="botao botao-msg">Enviar</a>
         </form>
-
-        <button class="botao">Enviar</button>
 
     </main>
 

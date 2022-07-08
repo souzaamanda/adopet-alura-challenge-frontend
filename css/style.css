@@ -6,6 +6,7 @@
     --cinza-escuro: #737380;
     --cinza-medio: #BCBCBC;
     --cinza-claro: #F6F6F6;
+    --branco: white;
     --font: 'Poppins', sans-serif;
 }
 
@@ -23,11 +24,11 @@ body {
         url(../img/forma-lateral.svg),
         url(../img/cao-gato.svg);
     background-repeat: no-repeat;
-    background-position: top left, center right, center bottom;
+    background-position: top left, center right, center bottom 4.2rem;
 }
 
 .bg-form {
-    background-color: var(--cinza-claro);
+    background-color: var(--branco);
     background-image: 
         url(../img/patas.svg),
         url(../img/forma-topo.svg), 
@@ -37,14 +38,16 @@ body {
 }
 
 .bg-home {
-    background-color: var(--cinza-claro);
+    background-color: var(--branco);
     background-image: url(../img/forma-topo.svg);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top left ;
 }
 
 .cabecalho {
-    margin: 3rem;
+    margin: 2rem 3rem;
+    display: flex;
+    align-items: center;
 }
 
 .icon {
@@ -52,49 +55,53 @@ body {
 }
 
 .icon-perfil {
-    position: relative;
+    position: absolute;
+    right: 3rem;
 
 }
 
 .container {
     text-align: center;
-    
-    padding: 0 3rem;
-    margin-top: 1.5rem;
+    margin: 0 auto;
     flex-grow: 1;
+    width: 80%;
 }
 
 .titulo{
     color: var(--cinza-claro);
     font-size: 1.5rem;
     margin: 1.2rem 0;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.texto {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1.2rem 0; 
 }
 
 .texto-claro {
-    color: var(--cinza-claro);
-    font-size: 1rem;
-    margin: 1.2rem 0;
+    color: var(--cinza-claro);  
 }
 .texto-azul {
     color: var(--azul);
-    font-size: 1rem;
-    margin: 1.2rem 0;
 }
 
 .botao {
+    margin: 0 auto 1rem auto;
+    display: block;
+
     background-color: var(--coral);
     text-decoration: none;
     color: var(--creme);
     font-size: 1rem;
     font-weight: 600;
 
-    height: 40px;
-    width: 180px;
+    height: 2.5rem;
+    width: 11.2rem;
     border-radius: 6px;
-    padding: 0;
-    margin-bottom: 0.8rem;
-    margin-top: 0.5rem;
-    align-self: center;
+    padding: 0.5em;
 }
 
 .botao:hover {
@@ -104,8 +111,8 @@ body {
 .rodape {
     background-color: var(--verde);
     color: var(--creme);
-    padding: 1.5rem 1.1rem;
-    font-size: 0.8rem;
+    padding: 1.5rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -116,21 +123,25 @@ body {
 }
 
 .form-titulo{
-    margin-bottom: 0.5rem;
     color: var(--cinza-escuro);
+    font-weight: 400;
 }
 
 .campo {
     height: 40px;
     width: 312px;
     border-radius: 6px;
-    margin-bottom: 1rem;
+    margin: 0.5rem 0 1rem 1rem;
     border: none;
     font-size: 0.8rem;
     color: var(--cinza-medio);
-    background: #F7F7F7;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    text-align: center;  
+    padding-left: 1rem;
+}
+
+.campo-form {
+    text-align: center;
+    background-color: var(--cinza-claro);  
 }
 
 .eye {
@@ -142,4 +153,32 @@ body {
     color: var(--coral);
     text-decoration: underline;
     margin: 1rem;
+}
+
+.cx-msg{
+    background-color:var(--cinza-claro);
+    height: 33rem;
+    width: 22rem;
+    border-radius: 10px;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.msg-titulo{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left:1rem ;
+}
+
+.tx-area {
+    resize: none;
+    height: 8.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.botao-msg{
+    text-align: center;
 }
