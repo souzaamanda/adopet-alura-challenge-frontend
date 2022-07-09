@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-home">
+    <header class="cabecalho">
+        <a href="index.html" class="icon"><img src="img/home.svg" alt="home"></a>
+        <a href="mensagem.html"class="icon"><img src="img/message.svg" alt="home"></a>
+        <a href="#"class="icon-perfil"><img src="img/usuário.svg" alt="home"></a>
+    </header>
+
+    <main>
+        <div class="container">
+            <p class="texto-azul">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+        </div>
+
+        <form action="#" class="cx-msg">
+            <div class="titulo-perfil">
+                <h3 >Perfil</h3>
+            </div>
+
+            <p class="msg-titulo texto-azul">Foto</p>
+
+            <div class="foto-perfil">
+                <img src="./img/usuario2.svg" alt="foto do usuario" width="80px">
+                <span class="editar-foto">Clique na foto para editar</span>
+            </div>
+
+            
+
+            <label for="nome" class="msg-titulo texto-azul">Nome</label>
+            <input type="text" placeholder="Joana Magalhães" name="nome" class="campo">
+
+            <label for="telefone" class="msg-titulo texto-azul">Telefone</label>
+            <input type="number" placeholder="55 11 XXXXXXXXX" name="telefone" class="campo">
+
+            <label for="cidade" class="msg-titulo texto-azul">Cidade</label>
+            <input type="text" placeholder="São Paulo" name="cidade" class="campo">
+
+            <label for="sobre" class="msg-titulo texto-azul">Sobre</label>
+            <textarea name="sobre" id="" cols="30" rows="10" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime facilis dolores tempore autem dolorem quo, minima neque eos voluptatum voluptatem dolore sed, quaerat quia quam quos laudantium. Nemo, quisquam!" class="campo tx-area"></textarea>
+            
+
+            <a class="botao botao-msg">Salvar</a>
+        </form>
+
+    </main>
+
+    <footer class="rodape">
+        <p>2022 - Desenvolvido por Amanda Souza.</p>
+    </footer>
+    
+</body>
+</html>

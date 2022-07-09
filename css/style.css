@@ -158,11 +158,11 @@ body {
 
 .cx-msg{
     background-color:var(--cinza-claro);
-    height: 34rem;
+    height: 100%;
     width: 22rem;
     border-radius: 10px;
     text-align: left;
-    padding-top: 1rem;
+    padding: 1rem 0;
     margin: 0 auto;
     width: 90%;
 }
@@ -224,4 +224,24 @@ body {
 .msg-resp{
     text-decoration: none;
     display: flex;  
+}
+
+.titulo-perfil{
+    text-align: center;
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.foto-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editar-foto{
+    color: var(--coral);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
 }
