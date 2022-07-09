@@ -17,16 +17,6 @@ body {
     flex-direction: column;
 }
 
-.bg-body{
-    background-color: var(--azul);
-    background-image: 
-        url(../img/forma-topo.svg), 
-        url(../img/forma-lateral.svg),
-        url(../img/cao-gato.svg);
-    background-repeat: no-repeat;
-    background-position: top left, center right, center bottom 4.2rem;
-}
-
 .bg-form {
     background-color: var(--branco);
     background-image: 
@@ -57,7 +47,6 @@ body {
 .icon-perfil {
     position: absolute;
     right: 3rem;
-
 }
 
 .container {
@@ -65,14 +54,6 @@ body {
     margin: 0 auto;
     flex-grow: 1;
     width: 70%;
-}
-
-.titulo{
-    color: var(--cinza-claro);
-    font-size: 1.5rem;
-    margin: 1.2rem 0;
-    line-height: 48px;
-    font-weight: 500;
 }
 
 .texto {
@@ -84,6 +65,7 @@ body {
 .texto-claro {
     color: var(--cinza-claro);  
 }
+
 .texto-azul {
     color: var(--azul);
 }
@@ -114,134 +96,4 @@ body {
     padding: 1.5rem;
     font-size: 1rem;
     text-align: center;
-}
-
-.cadastro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-titulo{
-    color: var(--cinza-escuro);
-    font-weight: 400;
-}
-
-.campo {
-    height: 40px;
-    width: 312px;
-    border-radius: 6px;
-    margin: 0.5rem 0 1rem 1rem;
-    border: none;
-    font-size: 0.8rem;
-    color: var(--cinza-medio);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    padding-left: 1rem;
-}
-
-.campo-form {
-    text-align: center;
-    background-color: var(--cinza-claro);  
-}
-
-.eye {
-    position: relative;
-    left: 9.5rem;
-    bottom: 2.5rem;
-}
-
-.recuperar-senha {
-    color: var(--coral);
-    text-decoration: underline;
-    margin: 1rem;
-}
-
-.cx-msg{
-    background-color:var(--cinza-claro);
-    height: 100%;
-    width: 22rem;
-    border-radius: 10px;
-    text-align: left;
-    padding: 1rem 0;
-    margin: 0 auto;
-    width: 90%;
-}
-
-.msg-titulo{
-    font-size: 1rem;
-    font-weight: 600;
-    margin-left:1rem ;
-}
-
-.tx-area {
-    resize: none;
-    height: 8.5rem;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-}
-
-.botao-msg{
-    text-align: center;
-}
-
-.card{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: var(--cinza-claro);
-    width: 95%;
-    height: 196px;
-    margin: 0 auto;
-    margin-top: 1.5rem;
-}
-
-.card-titulo{
-    color: var(--azul);
-    font-weight: 600;
-    margin: 1rem 0;
-}
-
-.card-conteudo{
-    color: var(--cinza-escuro);
-    font-weight: 400;
-    line-height: 1.2rem;
-}
-
-.descricao{
-    font-size: 0.87rem;
-}
-
-.cidade{
-    font-size: 0.75rem;
-}
-
-.msg{
-    font-size: 0.62rem;
-    padding-left: 0.5rem;
-}
-
-.msg-resp{
-    text-decoration: none;
-    display: flex;  
-}
-
-.titulo-perfil{
-    text-align: center;
-    color: var(--cinza-escuro);
-    font-weight: 600;
-    font-size: 1.3rem;
-}
-
-.foto-perfil{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.editar-foto{
-    color: var(--coral);
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 1rem;
 }

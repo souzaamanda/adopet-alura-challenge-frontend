@@ -1,0 +1,19 @@
+.titulo-perfil{
+    text-align: center;
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.foto-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editar-foto{
+    color: var(--coral);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}

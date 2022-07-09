@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--cinza-claro);
+    width: 95%;
+    height: 196px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.card-titulo{
+    color: var(--azul);
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.card-conteudo{
+    color: var(--cinza-escuro);
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.descricao{
+    font-size: 0.87rem;
+}
+
+.cidade{
+    font-size: 0.75rem;
+}
+
+.msg{
+    font-size: 0.62rem;
+    padding-left: 0.5rem;
+}
+
+.msg-resp{
+    text-decoration: none;
+    display: flex;  
+}
