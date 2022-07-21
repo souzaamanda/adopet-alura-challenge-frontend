@@ -37,3 +37,30 @@
     text-decoration: none;
     display: flex;  
 }
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:370px) {
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:780px) {
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 10rem 3rem;
+    }
+
+    .bg-desktop{
+        background-image: url(../img/forma-topo.svg), url(../img/forma-lateral.svg);
+        background-repeat: no-repeat;
+        background-position: top left, center right ;
+        background-size: 35rem, 8rem;
+    }
+} 

@@ -5,7 +5,7 @@
         url(../img/forma-lateral.svg),
         url(../img/cao-gato.svg);
     background-repeat: no-repeat;
-    background-position: top left, center right, center bottom 4.2rem;
+    background-position: top left, center right, center bottom 4rem;
 }
 
 .titulo{
@@ -15,3 +15,27 @@
     line-height: 48px;
     font-weight: 500;
 }
+
+@media (min-width:450px) {
+    .titulo{
+        font-size: 1.7rem;
+        opacity: 0.28;
+    }
+
+    .bg-body{
+        background-size: 35rem, 8.3rem, 21.1rem;
+    }
+}
+
+@media (min-width:780px) {
+    .bg-body{
+        background-size: 35rem, 7rem, 21.6rem;
+    }
+
+    .titulo{
+        font-size: 1.7rem;
+        opacity: 1;
+    }
+
+}
+

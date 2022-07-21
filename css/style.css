@@ -35,9 +35,14 @@ body {
 }
 
 .cabecalho {
-    margin: 2rem 3rem;
+    margin: 1.5rem;
     display: flex;
     align-items: center;
+}
+
+.logo-cabecalho{
+    position: absolute;
+    left: -200px;
 }
 
 .icon {
@@ -51,7 +56,7 @@ body {
 
 .container {
     text-align: center;
-    margin: 0 auto;
+    margin: 2rem auto 0;
     flex-grow: 1;
     width: 70%;
 }
@@ -93,7 +98,65 @@ body {
 .rodape {
     background-color: var(--verde);
     color: var(--creme);
-    padding: 1.5rem;
+    padding: 1.7rem 0;
     font-size: 1rem;
     text-align: center;
+}
+
+@media (min-width:370px) {
+    .logo-cabecalho{
+        position: static;
+        padding: 1rem;
+    }
+
+    .cabecalho{
+        margin: 4rem 3rem;
+    }
+
+    .icon {
+        padding: 1rem;
+    }
+
+    .container{
+        padding-top: 4rem;
+    }
+
+    .texto {
+        font-size: 1.2rem;
+        width: 21rem;
+        margin: 1.5rem auto;
+    }
+
+    .botao{
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+
+    .bg-home{
+        background-size: 35rem;
+    }
+}
+
+@media (min-width:780px) {
+    .cabecalho{
+        margin: 4rem 9rem 2rem;
+    }
+
+    .container{
+        padding-top: 0;
+        margin: 0 auto;
+    }
+
+    .texto {
+        width: 30.5rem;
+    }
+
+    .botao{
+        width: 22.6rem;
+    }
+
+    .icon-perfil {
+        position: absolute;
+        right: 10.8rem;
+    }
 }
