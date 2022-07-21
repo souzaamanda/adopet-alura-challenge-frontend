@@ -135,6 +135,16 @@ body {
     .bg-home{
         background-size: 35rem;
     }
+
+    .bg-form {
+        background-image:  
+            url(../img/patas.svg),
+            url(../img/forma-topo.svg), 
+            url(../img/forma-lateral.svg);
+        background-repeat: no-repeat;
+        background-position: top right, top left, 100% 60%;
+        background-size: 14rem, 35rem, 7rem;
+    }
 }
 
 @media (min-width:780px) {

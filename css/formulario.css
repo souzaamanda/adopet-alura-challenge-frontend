@@ -68,3 +68,14 @@
 .botao-msg{
     text-align: center;
 }
+
+@media (min-width:370px) {
+    .bg-desktop-form{
+        background-image:
+        url(../img/forma-topo.svg), 
+        url(../img/forma-lateral.svg);
+        background-repeat: no-repeat;
+        background-position:top left, 100% 60%;
+        background-size:35rem, 7rem;
+    }
+}
