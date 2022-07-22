@@ -145,6 +145,10 @@ body {
         background-position: top right, top left, 100% 60%;
         background-size: 14rem, 35rem, 7rem;
     }
+
+    .botao{
+        width: 164px;
+    }
 }
 
 @media (min-width:780px) {
@@ -160,10 +164,6 @@ body {
 
     .texto {
         width: 32rem;
-    }
-
-    .botao{
-        width: 22.6rem;
     }
 
     .icon-perfil {
