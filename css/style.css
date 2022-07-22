@@ -155,10 +155,11 @@ body {
     .container{
         padding-top: 0;
         margin: 0 auto;
+
     }
 
     .texto {
-        width: 30.5rem;
+        width: 32rem;
     }
 
     .botao{
